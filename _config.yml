@@ -10,7 +10,7 @@ url: "https://jjukeportfolio.github.io"
 
 
 # profile 이미지
-profile_image: images/me.jpg
+profile_image: images/me.JPG
 
 
 # SNS 아이디
@@ -211,7 +211,7 @@ exp_services: # 형식에 맞추어 항목 추가
 exp_counters:
 - name: projects
   count: 6
-  speed: 5000
+  speed: 10000
 
 
 # Career
