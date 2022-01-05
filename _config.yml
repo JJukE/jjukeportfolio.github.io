@@ -264,7 +264,7 @@ project_team_name: 연구실 프로젝트
 project_team: # 형식에 맞추어 항목 추가
 - background_url: images/lab_project1.jpg
   animation: fadeInRight
-  name: Spindle Appraisal Experiment(ing)
+  name: Spindle Appraisal Project(ing)
   description: 스핀들 역설계, 해석 등의 과정을 거친 후 고속 스핀들의 파손 징후를 분석한다. (빅데이터분석 과목의 텀 프로젝트와 연동)
   detail_url: #
   readmore_url: #
@@ -329,9 +329,9 @@ career_list:
   color: color-3
   icon: icon-pen2
   animation: fadeInLeft
-- name: SteadyRest and VR Interactive Platform Development (연구실 산학 협력 과제)
+- name: Realistic AR Interactive Contents for Smart Factory (연구실 산학 협력 과제)
   date: 2020.01~
-  content: 기존 모델의 CAE 정적 해석을 통한 새로운 모델 개발<br> CAE 열적 해석을 통한 새로운 모델 타당성 검증<br> 기구학 및 MATLAB을 통한 기구학 정밀도 구현<br> 실감형 원격 교육, System Engineer와 현장 작업자 간 협업 Contents, Simulation, 정밀도 프로그램을 포함하는 VR Interactive Platform 개발
+  content: 실감형 원격 교육, System Engineer와 현장 작업자 간 협업 Contents, Simulation, 정밀도 프로그램을 포함하는 VR Interactive Platform 개발
   color: color-4
   icon: icon-pen2
   animation: fadeInLeft
