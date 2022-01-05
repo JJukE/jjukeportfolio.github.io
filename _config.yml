@@ -73,8 +73,8 @@ about_content: >-
   <br>
   복학 후 코딩에 흥미를 느껴 내가 원하는 기능을 하는 어플을 개발해보자는 취지로
   스스로 앱 개발을 배워보았고, 여러 프로그래밍 언어를 익혔습니다.
-  <string>또한 4차 산업혁명이 큰 화두로 떠오르고 있는 현실에서 관련 산업의 기업들에 관심이 갔고,
-  인공지능이라는 신기술에 매료되어 2020년 2학기부터 ICT인공지능 연계 복수전공을 진행했습니다.</string>
+  <strong>또한 4차 산업혁명이 큰 화두로 떠오르고 있는 현실에서 관련 산업의 기업들에 관심이 갔고,
+  인공지능이라는 신기술에 매료되어 2020년 2학기부터 ICT인공지능 연계 복수전공을 진행했습니다.</strong>
   또한 2019년부터 시작한 학부연구생으로서 연구 진행 과정을 직접 경험하고, 논문을 작성해 보기도 하였습니다.
   친구들이 모두 취업 시장으로 떠나가는 동안, 힘들고 외롭지만 꾸준히, 후회 없이 저만의 길을 걸어가고 있습니다.
   평생 배움과 연구를 놓지 않으며 스스로를 계발해 나가는 이 분야의 최고가 되고 싶습니다.
@@ -113,11 +113,11 @@ tech_list: # 형식에 맞추어 항목 추가
     또한 여러 프로젝트를 통해 Tensorflow를 사용하여 인공지능을 구현하였습니다. <br><br>
 
 - name: >-
-    머신러닝, 딥러닝, 강화학습 <br><br>
+    머신러닝, 딥러닝, 강화학습, 데이터 분석 <br><br>
   color: color-2
   animation: fadeInRight
-  percent: 30
-  mark: 30
+  percent: 50
+  mark: 50
   content: >-
     공부하면 공부할수록 해당 분야가 정말 방대하고 제가 아는것이 정말 일부분이라는 것을 많이 느낍니다.
     이론부터 차근차근 다시 배우겠다는 마음으로 공부하고 있습니다. <br><br><br><br>
@@ -153,36 +153,126 @@ project_introduce:
 project_load_more: 앞으로 더 많은 프로젝트가 추가될 예정입니다:)    # 더보기 내용
 project_load_more_url: #
 
-project_my_name: 개인프로젝트
+project_my_name: 수업에서 진행한 텀프로젝트
 
 project_my: # 형식에 맞추어 항목 추가
-- background_url: images/personal_project1.PNG
+- background_url: images/term_project1.jpg
   animation: fadeInLeft
-  name: 딥러닝 불량품 검출(2021.04)
-  description: 실패한 공모전을 대학원 기말 프로젝트를 통해 몰랐던부분을 배우고 해결하였습니다. 공장에서 만들어내는 부품의 데이터를 통해 불량품을 검출하는 프로젝트입니다. 
+  name: 스마트폰 센서를 이용한 오토바이 최적 경로 추적(2019.12)
+  description: >-
+    2학년 2학기 '공학프로그래밍'이라는 과목의 텀 프로젝트이다. 총 4명의 팀원으로 진행하였다.
+    기존의 여러 교통 정보 뿐만 아니라 센서를 통해 경로 상의 노면 상태를 고려하여 경로를 추천해주는 프로그램을 MATLAB을 통해 개발하였다.
+    MATLAB이라는 프로그램 하나로도 센서 데이터를 읽어오고 threshold를 지정하여 GUI를 통해 프로그램을 만들 수 있다는 사실을 알게 되었고,
+    어플리케이션에 간단한 하나의 기능을 추가하는 것이 얼마나 힘든 일인지를 깨닫게 되었다.
+    또한 이 term project를 통해 코딩에 관심이 생겼다.
   detail_url: #
   readmore_url: #
 
-- background_url: images/blog-1.jpg
+- background_url: images/term_project2.jpg
   animation: fadeInLeft
-  name: 개인 프로젝트 어쩌구
-  description: 설명설명 설명 설명
+  name: Circle Breeding Game(2020.06)
+  description: >-
+    3학년 1학기 '마이크로컨트롤러'라는 과목의 텀 프로젝트이다. 총 2명의 팀원으로 진행하였다.
+    브레드보드에 가속도계 등의 회로를 구성하여 컨트롤러를 만들고, 아두이노를 사용하여 센서 값을 측정한 후,
+    Serial 단방향 통신을 통해 값을 PC로 송신하고 C# 프로그래밍을 통해 자신보다 큰 원을 피하고 작은 원을 잡아먹으며 원의 크기를 키우는 게임을 개발하였다.
+    이 프로젝트를 통해 기계공학적, 전기공학적 지식과 프로그래밍 능력을 모두 함양한다면 유용한 장치를 개발할 수 있을 것이라는 자신감과 꿈을 갖게 되었다.
+  detail_url: #
+  readmore_url: https://youtu.be/pNFx73Wn4Fs
+
+- background_url: images/term_project3.jpg
+  animation: fadeInLeft
+  name: 가위바위보 로봇(2020.12)
+  description: >-
+    3학년 2학기 '로봇공학'이라는 과목의 텀 프로젝트이다.
+    개인 프로젝트로 진행되었으며, 손 모양의 로봇의 모습과 움직임을 프로그래밍을 통해 살펴보는 프로젝트였다. 
+    특히, 손가락 마디의 움직임을 통해 가위바위보 형상을 구현하였다.
+    원하는 로봇을 직접 만들지 않고도 OpenGL API, C++언어를 통해 움직임을 시뮬레이션 해볼 수 있다는 사실을 깨다았고,
+    하나의 언어를 통달하는 것이 중요한 것이 아니라, 기능을 구현하기 위해 어떻게 필요한 지식을 검색하고 내 어플리케이션에 적용할지가 더 중요하다는 사실을 깨달았다.
   detail_url: #
   readmore_url: #
 
-project_team_name: 팀프로젝트
+- background_url: images/term_project4.jpg
+  animation: fadeInLeft
+  name: Self-balancing Bike(2020.12)
+  description: >-
+    3학년 2학기 '자동화시스템'이라는 과목의 텀 프로젝트이다. 
+    4명의 팀원이 기계공학적 지식과 프로그래밍 지식을 통해 설계와 제어를 맡아 간단한 작품을 만들어보는 실습 과목이다.
+    오토바이에 모멘트 평형을 일으키는 Reaction Wheel을 장착하여 PID 제어를 통해 밸런스를 유지하는 오토바이를 개발하려 하였다.
+    하지만 random하게 수많은 시행착오를 겪어야 PID 제어 gain 값을 구할 수 있었는데, 시간적 여유가 부족하여 값을 얻는 데 실패하였고,
+    차체의 기울기에 따라 모터에 pwm 값을 가하여 토크를 주는 bang-bang control을 구현하였지만 현실에서 안정적인 구현이 불가능했다.
+    하지만 여러 시도를 해보면서 많은 이론과 시행착오를 겪으며 성장하였고, 프로젝트 진행에는 사전 조사가 매우 중요하다는 사실을 깨달았다.
+  detail_url: #
+  readmore_url: https://youtu.be/GTKjT0mgtsQ
+
+- background_url: images/term_project5.png
+  animation: fadeInLeft
+  name: Gesture Recognition and Gesture Based UI Prototype(2021.06)
+  description: >-
+    4학년 1학기 '딥러닝' 과목의 텀 프로젝트이다. 
+    3명의 팀원이 진행하였으며, 디바이스와 인간의 상호작용을 위해 웹캠을 통해 얻은 사람의 손 모양을 딥러닝을 통해 컴퓨터가 인식하도록 하는 프로젝트이다.
+    Kaggle data를 사용하려 하였지만, 성능이 좋지 않아서 웹캠 캡쳐 기능을 통해 직접 데이터를 만들어 dropout, data augmentation 등의 기법을 적용하여 학습시켰다.
+    96퍼센트의 높은 정확도를 보이는 모델을 얻었으며, JavaScript 언어로 구현된 실시간으로 손모양을 판별하는 프로그램을 통해 입증했다.
+    교수님과 같이 수업 들은 다른 학생들에게 극찬을 받으며 만점을 받은 프로젝트인 만큼, 인공지능에 대한 흥미와 적성을 더 깨우쳐준 프로젝트였다.
+  detail_url: https://github.com/lee-euijin/AppleFarm/blob/main/Master/Deep_Learning_Project__Team_1_final.ipynb
+  readmore_url:
+
+- background_url: images/term_project6.jpg
+  animation: fadeInLeft
+  name: 뉴스 기사 감성 분석을 사용한 중, 장기적 주가 예측 프로그램(2021.06)
+  description: >-
+    4학년 1학기 '데이터마이닝' 과목의 텀 프로젝트이다. 
+    3명의 팀원이 진행하였으며, RPA를 통한 뉴스 기사의 title, date, content를 crawling하여 데이터를 직접 생성한 후, 감성 분석을 통해 긍정/부정을 판별한다.
+    또한 재무재표의 다른 data와 함께 Regression 기법을 적용하여 중, 장기적인 주가를 예측한다.
+    RPA 솔루션을 사용하여 코딩 없이 수많은 뉴스 기사들을 크롤링할 수 있음을 알게 되었고, data를 다루는 Regression 기법과 text mining 기법을 직접 구현해보며 역량을 키울 수 있었다.
+  detail_url: https://github.com/JJukE/DataMining
+  readmore_url: https://youtu.be/WOaKpZnq704
+
+- background_url: images/term_project7.jpg
+  animation: fadeInLeft
+  name: 지방소멸의 요인 분석(2021.12)
+  description: >-
+    4학년 2학기 '비즈니스인텔리전스' 과목의 텀 프로젝트이다. 
+    5명의 팀원이 진행하였으며, 제공된 dataset에서 target 값 및 모델을 선정하여 Random Forest 기법을 사용하여 세 번의 분석 과정을 거쳐 지방 소멸에 영향을 주는 요인을 분석한다.
+    데이터 분석 및 시각화를 Python이 아닌 RapidMiner와 Tableau를 통해 직관적으로 실행해볼 수 있었다.
+  detail_url: #
+  readmore_url: #
+
+- background_url: images/term_project8.jpg
+  animation: fadeInLeft
+  name: 빅데이터를 활용한 스핀들 모터 고장 요인 분석(2021.12)
+  description: >-
+    4학년 2학기 '빅데이터분석' 과목의 텀 프로젝트이며, 연구실 과제의 일부를 진행하였다.
+    2명의 팀원이 진행하였으며, 고속 스핀들 모터에 부착한 가속도, 변위 센서로부터 얻은 6.6억개의 데이터를 전처리하여 고장 패턴을 분석하는 프로젝트를 진행하였다.
+    기계공학적 지식, 신호 처리에 관한 지식, 프로그래밍 지식, 데이터 분석 기법에 관한 지식 등 많은 분야의 지식들을 융합하여 의미있는 결과를 얻어내면서,
+    나만의 역량을 제대로 발휘해볼 수 있었던 프로젝트였다.
+  detail_url: https://github.com/JJukE/BigDataAnalysis
+  readmore_url: #
+
+- background_url: images/term_project9.jpg
+  animation: fadeInLeft
+  name: 마이크로툴 가공용 CNC 공작기계의 공작물 클램핑 툴 개발(2021.12)
+  description: >-
+    졸업작품 과목인 Capstone Design 프로젝트이다.
+    4명의 팀원이 진행하였으며, 크게 'CAE 해석을 통한 기존 벤치마킹 모델 재설계 및 타당성 검증', '기구학 Matrix를 사용한 Precision Program', 'VR Interactive Platform'의 3가지 주제로 나뉜다.
+    CAE 정적 해석을 통해 기존 우수 제품의 SteadyRest를 재설계하고, CAE 열적 해석 및 실험을 통해 타당성을 검증하였다.
+    또한 기구학 Matrix를 사용하여 Base 부분의 틀어짐이 공구 지지 부분에 얼마나 영향을 주는지 계산하는 프로그램을 만들었다.
+    그리고 전반적 모델의 VR Manual 및 시뮬레이션을 Unity를 통해 만들었으며, Precision Program을 C#으로 재구현하여 VR apk에 구현하였다.
+  detail_url: #
+  readmore_url: https://youtu.be/yZ6Atqf39gQ
+
+project_team_name: 연구실 프로젝트
 project_team: # 형식에 맞추어 항목 추가
-- background_url: images/team_project3.PNG
+- background_url: images/lab_project1.jpg
   animation: fadeInRight
-  name: Anti-Drone_Robot(2020.05)
-  description: 2019년 드론기술발전에 따른 드론관련 사고들이 많아지고 있음을 파악하고 그에따른 대처가 필요하다고 생각 하여 인공지능을 이용한 Anti Drone Robot 을 개발하였다
+  name: Spindle Appraisal Experiment(ing)
+  description: 스핀들 역설계, 해석 등의 과정을 거친 후 고속 스핀들의 파손 징후를 분석한다. (빅데이터분석 과목의 텀 프로젝트와 연동)
   detail_url: #
   readmore_url: #
 
-- background_url: images/team_project3.PNG
+- background_url: images/lab_project2.jpg
   animation: fadeInRight
-  name: sasdasdasdsadsagjghkukt(2020.05)
-  description: 2019년 드론기술발전에 따른 드론관련 사고들이 많아지고 있음을 파악하고 그에따른 대처가 필요하다고 생각 하여 인공지능을 이용한 Anti Drone Robot 을 개발하였다
+  name: 스마트팩토리용 실감형 AR 인터렉티브 콘텐츠 플랫폼 개발(ing)
+  description: 메타버스 시대에 발맞춰 Capstone Design에서 VR Interactive Platform을 개발하였던 것과 연동하여 스마트팩토리를 위한 플랫폼을 개발한다.
   detail_url: #
   readmore_url: #
 
@@ -210,8 +300,11 @@ exp_services: # 형식에 맞추어 항목 추가
   content: NX, Inventor, Solidworks 등의 3D 설계 툴, ANSYS 해석 툴, MATLAB, Arduino와 같은 Tool 사용에 능숙하며, C, Java, Swift, C#, Scala 언어를 다뤄본 경험이 있습니다.
 exp_counters:
 - name: projects
-  count: 6
-  speed: 10000
+  count: 11
+  speed: 2000
+- name: papers (ing)
+  count: 2
+  speed: 2000
 
 
 # Career
@@ -222,13 +315,13 @@ career_list:
   date: 2017.12~2018.02
   content: 자동차 샤시 부품 연구를 위한 Setting (공구를 사용한 분해/조립, 센서 부착 등)<br> 현대자동차 남양연구소에서 부품 연구 과정 경험
   color: color-1
-  icon: icon-pen2
+  icon: icon-spanner
   animation: fadeInLeft
 - name: 현대자동차 (Contract Worker)
   date: 2018.08~2019.02
   content: 현대자동차 울산공장에서 의장, 도장 등의 현장직 일을 맡아 자동차가 완성되어가는 과정을 몸소 경험
   color: color-2
-  icon: icon-pen2
+  icon: icon-spanner
   animation: fadeInLeft
 - name: Spindle Appraisal Project (연구실 과제)
   date: 2019.10~
@@ -267,7 +360,7 @@ blog_list:
 - title: JJukE's brain
   subtitle: 개인 블로그 (티스토리)
   date: 2021.01
-  content: 전문적인 프로그래머들을 보면서 부러웠고, 좌절도 하였지만 포기하지않고 어느 한분야의 최고의 전문가가 되겠다는 마음으로 꾸준히 제가 배우는 내용을 정라하는 블로그를 운영하고 있습니다.
+  content: 전문적인 프로그래머들을 보면서 부러웠고, 좌절도 하였지만 포기하지않고 어느 한분야의 최고의 전문가가 되겠다는 마음으로 꾸준히 제가 배우는 내용을 정리하는 블로그를 운영하고 있습니다.
   thumbnail_url: images/blog-1.jpg
   link: https://jjuke-brain.tistory.com/
 
@@ -276,7 +369,7 @@ blog_list:
 contact_meta: Get in Touch
 contact_header: Contact
 contact_list:
-- title: psj9156@gmai.com
+- title: psj9156@gmail.com
   icon: icon-globe-outline
 - title: 서울특별시 노원구
   icon: icon-map
