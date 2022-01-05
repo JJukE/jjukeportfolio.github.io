@@ -285,7 +285,7 @@ exp_services: # 형식에 맞추어 항목 추가
 - name: 매니지먼트
   color: color-1
   icon: icon-bulb
-  content: 학부 과정동안 진행한 개 중 개의 프로젝트에서 팀장을 맡아 각 팀원들의 능력을 파악하고 업무를 배정하고 관리하였습니다.
+  content: 학부 과정동안 진행한 9개 중 8개의 과목 텀 프로젝트에서 팀장을 맡아 각 팀원들의 능력을 파악하고 업무를 배정하고 관리하였습니다.
 - name: 기술습득
   color: color-2
   icon: icon-home
