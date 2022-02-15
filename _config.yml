@@ -93,7 +93,7 @@ about_box_content: 배움에는 끝이 없다는 말을 새기며 <br>매일 자
 about_box_content_color: rgb(255, 255, 255)
 
 about_box_button:
-  link: https://drive.google.com/file/d/1YApb3jqPxTNM2_GyvEfGzgHiwNoVBlU-/view?usp=sharing
+  link: https://drive.google.com/file/d/1HSmCqSIOFj0hCrP_l0h43i_YNWQB8t1c/view?usp=sharing
   name: CV
 
 
@@ -302,8 +302,8 @@ exp_counters:
 - name: projects
   count: 11
   speed: 2000
-- name: papers (ing)
-  count: 2
+- name: papers
+  count: 3
   speed: 2000
 
 
