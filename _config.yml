@@ -93,7 +93,7 @@ about_box_content: 배움에는 끝이 없다는 말을 새기며 <br>매일 자
 about_box_content_color: rgb(255, 255, 255)
 
 about_box_button:
-  link: https://drive.google.com/file/d/1HSmCqSIOFj0hCrP_l0h43i_YNWQB8t1c/view?usp=sharing
+  link: https://drive.google.com/file/d/14k14CQtHHwZuVscG52YjdXvJlyEUWbCL/view?usp=sharing
   name: CV
 
 
@@ -106,8 +106,8 @@ tech_list: # 형식에 맞추어 항목 추가
     Python <br><br>
   color: color-1
   animation: fadeInLeft
-  percent: 70
-  mark: 70
+  percent: 80
+  mark: 80
   content: >-
     파이썬 기초, 데이터 분석, 시각화를 공부하고 파이썬 언어의 기본적인 문법에 대해 알고 있으며, 자료구조 및 알고리즘을 파이썬으로 공부하였습니다.
     또한 여러 프로젝트를 통해 Tensorflow를 사용하여 인공지능을 구현하였습니다. <br><br>
@@ -116,18 +116,18 @@ tech_list: # 형식에 맞추어 항목 추가
     머신러닝, 딥러닝, 강화학습, 데이터 분석 <br><br>
   color: color-2
   animation: fadeInRight
-  percent: 50
-  mark: 50
+  percent: 60
+  mark: 60
   content: >-
-    공부하면 공부할수록 해당 분야가 정말 방대하고 제가 아는것이 정말 일부분이라는 것을 많이 느낍니다.
-    이론부터 차근차근 다시 배우겠다는 마음으로 공부하고 있습니다. <br><br><br><br>
+    공부하면 할수록 해당 분야가 정말 방대하고 제가 아는것이 정말 일부분이라는 것을 많이 느낍니다.
+    아직 세상에 없는 기술과 알고리즘을 개발하겠다는 목표를 갖고 꾸준히 공부하고 있습니다. <br><br><br><br>
 
 - name: >-
     Mechanical Engineering <br><br>
   color: color-3
   animation: fadeInLeft
-  percent: 70
-  mark: 70
+  percent: 80
+  mark: 80
   content: >-
     전공 과목으로 4대역학을 수강하고 해당 내용들을 나중에 다시 복기할 수 있도록 정리해 두었습니다.
     여러 영역에서 기계공학적 지식과 인공지능 역량을 결합하여 좋은 성과를 낼 수 있을 것입니다. <br><br>
@@ -136,13 +136,13 @@ tech_list: # 형식에 맞추어 항목 추가
     Github <br><br>
   color: color-4
   animation: fadeInRight
-  percent: 20
-  mark: 20
+  percent: 30
+  mark: 30
   content: >-
     일부 프로젝트를 github를 통해 소스 코드를 관리하였으며, 협업 역시 github을 통해 진행하였습니다.
     또한 github서버를 활용하여 포트폴리오 사이트를 관리합니다. <br><br>
 
-tech_desc: 앞으로 추가적인 연구를 위해 <strong>PyTorch, docker, Scala(Spark), 자율주행(인지, 판단, 제어)</strong>등을 계속해서 공부할 생각입니다. 
+tech_desc: 앞으로 추가적인 연구를 위해 <strong>PyTorch, docker, Scala(Spark), 자율주행</strong>등을 계속해서 공부할 생각입니다. 
 
 
 # PROJECT
@@ -153,9 +153,31 @@ project_introduce:
 project_load_more: 앞으로 더 많은 프로젝트가 추가될 예정입니다:)    # 더보기 내용
 project_load_more_url: #
 
-project_my_name: 수업에서 진행한 텀프로젝트
+project_my_name: 텀 프로젝트 및 개인 프로젝트
 
 project_my: # 형식에 맞추어 항목 추가
+- background_url: images/personal_project2.jpg
+  animation: fadeInLeft
+  name: 논문 그룹 스터디 (~ing)
+  description: >-
+    2주에 한 번씩 최소 2개의 논문에 대한 분석을 해오고 내용을 공유하는 그룹 스터디이다. 아직은 우수한 영어 논문을 분석하는 데 시간이 오래 걸리지만,
+    같은 분야에 대해 논문을 읽어볼수록 점점 지식이 쌓이고, 논문 분석의 노하우도 쌓임을 느끼고 있다.
+    그리고, 논문을 분석한 내용을 블로그에 따로 정리하여 언제든 내용을 다시 볼 수 있도록 하고 있다.
+  detail_url: https://jjuke-brain.tistory.com/category/%EB%85%BC%EB%AC%B8%20%EB%A6%AC%EB%B7%B0
+  readmore_url: https://jjuke-brain.tistory.com/category/%EB%85%BC%EB%AC%B8%20%EB%A6%AC%EB%B7%B0
+
+- background_url: images/personal_project1.jpg
+  animation: fadeInLeft
+  name: SIIM-FISABIO-RSNA COVID-19 Detection (~ing)
+  description: >-
+    Kaggle에서 이전에 진행했던 Competition 중 하나이다.
+    SIIM(Society for Imaging INformatics in Medicine)이라는 단체에서 주최하였으며,
+    의학 이미지 데이터에서 사람의 눈으로 구분하기 힘든 코로나 바이러스와 다른 바이러스를 구분하는 대회이다.
+    먼저 Faster-RCNN과 YOLO-v5과 관련된 지식을 쌓고, 다른 사람이 작성한 코드를 보며 구현하면서 Pytorch를 익혀보고자 한다.
+    그리고 가능하다면 모델을 변형시켜 더 좋은 성능을 낼 수 있도록 튜닝해보고자 한다.
+  detail_url: https://www.kaggle.com/c/siim-covid19-detection/overview
+  readmore_url: # github에 repository 생성 후 link 걸기
+
 - background_url: images/term_project9.jpg
   animation: fadeInLeft
   name: 마이크로툴 가공용 CNC 공작기계의 공작물 클램핑 툴 개발(2021.12)
