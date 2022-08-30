@@ -1,8 +1,8 @@
 title: JJukE's Portfolio
 name: 박상준
-email: psj9156@gmail.com
+email: psj9116@unist.ac.kr
 description: >-
-  Mechanical Engineer & A.I developer
+  AI Researcher
 
 
 baseurl: ""
@@ -45,11 +45,11 @@ slider_0: # 형식에 맞추어 항목 추가
 # slider type 1  (텍스트가 좌측 정렬된 슬라이더)
 slider_1: # 형식에 맞추어 항목 추가
 - background_url: images/img_bg_4.jpeg
-  title: I am<br>AI<br>Developer
+  title: I am<br>AI<br>Researcher
   subtitle: >- 
     꾸준히 성장하고<br>
     끊임없이 노력하는<br>
-    초보 개발자 쭈기입니다.
+    초보 인공지능 연구자입니다.
   position: absolute
   transform: translate( -50%, -50%)
   left: 600px
@@ -59,25 +59,23 @@ slider_1: # 형식에 맞추어 항목 추가
 # About
 about_meta: About Me
 about_header: >- 
-  "끊임없이 배우는 대학생"
+  "끊임없이 배우는 사람"
 about_introduce: >-
-  "안녕하세요. 인공지능 및 자율주행 분야 전문가를 꿈꾸는 개발자, 박상준입니다."
+  "안녕하세요. 인공지능 및 자율주행 분야 전문가를 꿈꾸는 석사과정 1년차, 박상준입니다."
 about_content: >-
   어렸을 때부터 활발했고 스스로 다양한 도전을 해왔습니다.
   욕심이 많아, 일단 시작한 일은 끈기 있게 목표한 바를 이루고 인정받기 위해 열심히 달렸습니다. <br>
-  수학과 과학에 관심이 많아 과학중점고등학교에 진학하였으며, 기계시스템디자인공학과로 진학하였습니다.
-  못하지는 않았지만 특별히 잘하거나 흥미가 많지는 않았던 1학년 학부를 마친 후,
+  기계 관련 전공을 하며 특별히 잘하거나 흥미가 많지는 않았던 1학년 학부를 마친 후,
   2016년도에 22사단 최전방에서 군 복무를 하였습니다. <br>
   진로에 관한 많은 생각을 뒤로한 채 1년의 휴학기간동안 취미인 보컬과 힙합에도 푹 빠져보고,
   자동차 부품연구소 알바, 현대자동차 계약직에서 현장 일 등을 해보며 돈을 벌어 보았습니다. <br>
   <br>
   복학 후 코딩에 흥미를 느껴 내가 원하는 기능을 하는 어플을 개발해보자는 취지로
-  스스로 앱 개발을 배워보았고, 여러 프로그래밍 언어를 익혔습니다.
-  <strong>또한 4차 산업혁명이 큰 화두로 떠오르고 있는 현실에서 관련 산업의 기업들에 관심이 갔고,
-  인공지능이라는 신기술에 매료되어 2020년 2학기부터 ICT인공지능 연계 복수전공을 진행했습니다.</strong>
-  또한 2019년부터 시작한 학부연구생으로서 연구 진행 과정을 직접 경험하고, 논문을 작성해 보기도 하였습니다.
-  친구들이 모두 취업 시장으로 떠나가는 동안, 힘들고 외롭지만 꾸준히, 후회 없이 저만의 길을 걸어가고 있습니다.
-  평생 배움과 연구를 놓지 않으며 스스로를 계발해 나가는 이 분야의 최고가 되고 싶습니다.
+  스스로 앱 개발을 배워보았고, 다양한 프로그래밍 언어를 익혔습니다.
+  <strong>또한 4차 산업혁명이 큰 화두로 떠오르고 있는 현실에서 관련 산업의 기업에 관심이 갔고,
+  인공지능이라는 신기술에 매료되어 2020년 2학기부터 인공지능 관련 복수전공을 진행했습니다.</strong>
+  이제 석사생으로 본격적으로 학문의 깊이를 더하며 전문성을 갖추고, 논문을 써보려 합니다. <br>
+  평생 배움과 연구를 놓지 않으며 스스로를 계발해 나가는, 3D Vision 분야의 최고가 될 것입니다!
 
 about_services: # 형식에 맞추어 항목 추가
 - icon: icon-data
@@ -88,7 +86,7 @@ about_services: # 형식에 맞추어 항목 추가
   name: Mechanical ENG
 - icon: icon-code
   name: Python, C++
-about_box_content: 배움에는 끝이 없다는 말을 새기며 <br>매일 자신을 계발하는 <strong>'꾸준히 갱신하는' 전문가가 되겠습니다. </strong>
+about_box_content: 배움에는 끝이 없다는 말을 새기며 <br><strong>'꾸준히 역량을 갱신하는' 전문가가 되겠습니다. </strong>
 
 about_box_content_color: rgb(255, 255, 255)
 
@@ -103,46 +101,48 @@ tech_header: 제 역량은 다음과 같습니다.
 tech_content:
 tech_list: # 형식에 맞추어 항목 추가
 - name: >-
-    Python <br><br>
+    Python, PyTorch <br><br>
   color: color-1
   animation: fadeInLeft
   percent: 80
   mark: 80
   content: >-
     파이썬 기초, 데이터 분석, 시각화를 공부하고 파이썬 언어의 기본적인 문법에 대해 알고 있으며, 자료구조 및 알고리즘을 파이썬으로 공부하였습니다.
-    또한 여러 프로젝트를 통해 Tensorflow를 사용하여 인공지능을 구현하였습니다. <br><br>
+    석사과정을 시작하면서 PyTorch를 익혀 연구에 활용하고 있습니다. <br><br>
 
 - name: >-
-    머신러닝, 딥러닝, 강화학습, 데이터 분석 <br><br>
+    Visual SLAM <br><br>
   color: color-2
   animation: fadeInRight
   percent: 60
   mark: 60
   content: >-
-    공부하면 할수록 해당 분야가 정말 방대하고 제가 아는것이 정말 일부분이라는 것을 많이 느낍니다.
-    아직 세상에 없는 기술과 알고리즘을 개발하겠다는 목표를 갖고 꾸준히 공부하고 있습니다. <br><br><br><br>
+    소속 연구실의 주요 분야 중 하나로, 공부하면 할수록 해당 분야가 정말 방대하고 제가 아는것이 극히 일부분이라는 것을 많이 느낍니다.
+    많은 사람들이 편안하고 안전한 삶을 영위하도록 하는 로보틱스 기술의 눈과 뇌를 책임지기 위해 많은 공부를 하고 있습니다. <br><br><br><br>
 
 - name: >-
-    Mechanical Engineering <br><br>
+    3D Vision <br><br>
   color: color-3
   animation: fadeInLeft
   percent: 80
   mark: 80
   content: >-
-    전공 과목으로 4대역학을 수강하고 해당 내용들을 나중에 다시 복기할 수 있도록 정리해 두었습니다.
-    여러 영역에서 기계공학적 지식과 인공지능 역량을 결합하여 좋은 성과를 낼 수 있을 것입니다. <br><br>
+    소속 연구실의 주요 분야 중 하나로, 말그대로 한 차원 업그레이드된 컴퓨터 비젼 연구를 진행중입니다.
+    자율주행에 관심을 갖던 학부생 때부터 Pointcloud를 활용한 인지 시스템에 관심이 있었으며, 
+    현재는 3D Scene Graph 관련 연구를 진행중입니다.<br><br>
 
 - name: >-
-    Github <br><br>
+    Github, Docker <br><br>
   color: color-4
   animation: fadeInRight
   percent: 30
   mark: 30
   content: >-
-    일부 프로젝트를 github를 통해 소스 코드를 관리하였으며, 협업 역시 github을 통해 진행하였습니다.
-    또한 github서버를 활용하여 포트폴리오 사이트를 관리합니다. <br><br>
+    일부 프로젝트를 진행할 때 github로 소스 코드를 관리하였으며, 협업 역시 github을 통해 진행하였습니다.
+    또한 github서버를 활용하여 포트폴리오 사이트를 관리합니다.
+    그리고 서버와 Docker를 활용하여 연구를 진행하고 있습니다. <br><br>
 
-tech_desc: 앞으로 추가적인 연구를 위해 <strong>PyTorch, docker, Scala(Spark), 자율주행</strong>등을 계속해서 공부할 생각입니다. 
+tech_desc: 최종 목표인 Top tier 논문 작성을 위해 <strong>Scratch로 논문을 구현해낼 수 있을 정도의 코딩 실력과, 다양한 논문의 insight를 아이디어로 승화시키는 역량을</strong>계속해서 키울 것입니다.
 
 
 # PROJECT
@@ -303,7 +303,7 @@ project_team: # 형식에 맞추어 항목 추가
 # Experience
 exp_meta: What have I achieved?
 exp_header: 저는 이런 "경험"들을 해봤습니다.
-exp_content: 현재 개발로서는 큰 도움은 되지 않을 수 있지만, 필요로 한다면 이런 역량도 가지고 있습니다.
+exp_content: 연구 자체로서는 큰 도움이 되지 않을 수 있지만, 필요로 한다면 이런 역량도 가지고 있습니다.
 exp_services: # 형식에 맞추어 항목 추가
 - name: 매니지먼트
   color: color-1
@@ -334,14 +334,20 @@ exp_counters:
 carerr_meta: career
 career_header: Work Career
 career_list:
-- name: Realistic AR Interactive Contents for Smart Factory (연구실 산학 협력 과제)
-  date: 2020.01~
+- name: UNIST Master's Course
+  date: 2022.09~
+  content: RVI(Robotics and Visual Intelligence) Lab에서 연구중
+  color: color-4
+  icon: icon-pen2
+  animation: fadeInLeft
+- name: Realistic AR Interactive Contents for Smart Factory (학부 연구실 산학 협력 과제)
+  date: 2020.01~2022.06
   content: 실감형 원격 교육, System Engineer와 현장 작업자 간 협업 Contents, Simulation, 정밀도 프로그램을 포함하는 VR Interactive Platform 개발
   color: color-4
   icon: icon-pen2
   animation: fadeInLeft
-- name: Spindle Appraisal Project (연구실 과제)
-  date: 2019.10~
+- name: Spindle Appraisal Project (학부 연구실 과제)
+  date: 2019.10~2022.06
   content: Spindle 역설계<br> 센서 신호 FFT 변환<br> 이상 신호 감지를 위한 Clustering (팀 프로젝트와 연동) - 진행중
   color: color-3
   icon: icon-pen2
@@ -364,14 +370,18 @@ career_list:
 edu_meta: Education
 edu_header: Education
 edu_list:
+- title: ULSAN NATIONAL INSTITUTE OF SCIENCE AND TECHNOLOGY
+  subtitle: UNIST AI대학원, Robotics and Visual Intelligence Lab
+  date: 2022.09 -
+  content: 석사과정
 - title: SEOUL NATIONAL UNIVERSITY OF SCIENCE AND TECHNOLOGY
-  subtitle: 서울과학기술대학교 기계시스템디자인공학과, ICT인공지능 연계전공 재학중
-  date: 2015.03 - 2022.08(예정)
-  content: 복수전공으로 졸업 예정
+  subtitle: 서울과학기술대학교 기계시스템디자인공학과, ICT인공지능 연계전공
+  date: 2015.03 - 2022.08
+  content: 복수전공으로 졸업
 - title: ULSAN JOONGANG HIGH SCHOOL
   subtitle: 울산중앙고등학교
   date: 2012.03 - 2015.02
-  content: 과학중점고등학교, 이과
+  content: 과학중점고등학교
 
 
 # Blog
@@ -383,7 +393,7 @@ blog_list:
 - title: JJukE's brain
   subtitle: 개인 블로그 (티스토리)
   date: 2021.01
-  content: 전문적인 프로그래머들을 보면서 부러웠고, 좌절도 하였지만 포기하지않고 어느 한분야의 최고의 전문가가 되겠다는 마음으로 꾸준히 제가 배우는 내용을 정리하는 블로그를 운영하고 있습니다.
+  content: 전문가들을 보면서 부러웠고, 좌절도 하였지만 포기하지않고 제 분야의 최고가 되겠다는 마음으로 꾸준히 제가 배우는 내용을 정리하는 블로그를 운영하고 있습니다.
   thumbnail_url: images/blog-1.jpg
   link: https://jjuke-brain.tistory.com/
 
@@ -392,14 +402,14 @@ blog_list:
 contact_meta: Get in Touch
 contact_header: Contact
 contact_list:
-- title: psj9156@gmail.com
+- title: psj9116@unist.ac.kr
   icon: icon-globe-outline
-- title: 서울특별시 노원구
+- title: 울산광역시 울주군
   icon: icon-map
 - title: GITHUB
   icon: icon-layers2
   url: https://github.com/JJukE
-contact_message: <em>연락해주셔서 감사합니다.</em> 24시간이내에 회신드리도록 하겠습니다. :)
+contact_message: <em>연락해주셔서 감사합니다.</em> 24시간이내에 회신드리도록 하겠습니다:)
 
 
 optional_front_matter:
